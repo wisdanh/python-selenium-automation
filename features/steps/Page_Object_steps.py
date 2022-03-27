@@ -1,9 +1,9 @@
 from selenium.webdriver.common.by import By
 from behave import given, when, then
 
-orders_link = (By.ID,'nav-orders')
-continue_button = (By.ID,'continue-announce')
-expected_text = (By.CSS_SELECTOR, 'h1.a-spacing-small')
+#orders_link = (By.ID,'nav-orders')
+#continue_button = (By.ID,'continue-announce')
+#expected_text = (By.CSS_SELECTOR, 'h1.a-spacing-small')
 
 @given('Open Amazon main page')
 def open_amazonpage(context):
